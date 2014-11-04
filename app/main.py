@@ -48,7 +48,7 @@ def set_password(passwd, new_passwd):
 
 
 def _set_password(passwd, new_passwd):
-  if os.path.exists(PASSWD_FILE):
+  if passwd and os.path.exists(PASSWD_FILE):
     with open(PASSWD_FILE, 'r') as f:
       if passwd.strip() != f.read().strip():
         return False

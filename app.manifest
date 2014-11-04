@@ -1,11 +1,13 @@
 {
     "application": {
+        "name": "nfs",
         "description": "(BETA) Makes your external storages accessible from any devices via network",
-        "language": "en",
         "author": "samba.org",
         "url": "http://www.samba.org",
+        "version": "3.6.141104",
+        "sdk-version": "0.20.140919",
+        "language": "en",
         "country": "kr",
-        "sdk-version": "0.20.0",
         "labels": [
             "network file system",
             "NFS",
@@ -16,14 +18,12 @@
             "*:*:/home/nfs"
         ],
         "priority": "",
-        "version": "3.6.140828",
         "devices": [
             "storage",
             "web"
         ],
         "requires": [],
         "display": "Network File System",
-        "name": "nfs",
         "icon_color": "rgba(97, 128, 168, 1)"
     },
     "dependency": {
